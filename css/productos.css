@@ -1,0 +1,90 @@
+*{
+    box-sizing: content-box;
+}
+main{
+    margin: 0;
+    
+}
+
+
+/*Main*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    text-align: center;
+    padding: 0.8rem;
+    background-color: rgb(242, 241, 240);
+}
+#items{
+    padding: 0;
+}
+#row{
+    justify-content: center; 
+    margin: 0;
+}
+#mueble-descripcion{
+    font-size: medium;
+}
+#mueble-precio{
+    font-size: 16px;
+}
+#btnComprar{
+    background-color: rgb(242, 135, 12);
+    border-radius: 10px;
+    border: 1px;
+    font-size: 15px;
+}
+#btnComprar:hover{
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 241, 240);
+}
+#btnProductos{
+    margin: 2rem;
+    background-color: rgb(242, 54, 12);
+    box-shadow:10px 10px 20px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    border: 1px;
+    padding: 0.75rem 1rem;
+}
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container2{
+    margin: 0;
+}
+#container-carrito{
+    border: 5px rgb(192,160,132) double;
+}
+#container-carrito h3{
+    font-family: "arima",sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#boton-vaciar{
+    background-color: rgb(242,54,12) ;
+}
+#botonX{
+    background-color: rgb(242,54,12);
+    
+}
+
+
+@media (max-width:768px) { /*tablet*/
+    .grid-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:460px) { /*celular*/
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+  
+    
+}

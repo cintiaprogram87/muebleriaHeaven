@@ -1,0 +1,30 @@
+{
+    "baseDeDatos" : [
+    { "id": 1, "nombre": "Mueble de cocina y desayunador", "precio": 700000, "imagen": "../img/cocina.jpg" },
+    { "id": 2, "nombre": "dispenser", "precio": 40000, "imagen": "../img/cocina1.jpg" },
+    { "id": 3, "nombre": "Mesa redonda con 4 sillas", "precio": 80000, "imagen": "../img/cocina2.png" },
+    
+
+    { "id": 9, "nombre": "cama box 2 plazas", "precio": 540000, "imagen": "../img/dormitorio1.jpg" },
+    { "id": 10, "nombre": "Cama 2 plazas de roble", "precio": 940000, "imagen": "../img/dormitorio2.jpg" },
+    { "id": 11, "nombre": "Ropero 3 puertas", "precio": 540000, "imagen": "../img/dormitorio3.jpg" },
+    
+
+    { "id": 15, "nombre": "Juego de mesa con sillas de jardin", "precio": 140000, "imagen": "../img/jardin1.jpg" },
+    { "id": 16, "nombre": "Mesa con sillones de jardin", "precio": 200000, "imagen": "../img/jardin2.jpg" },
+
+    { "id": 21, "nombre":"Banner", "precio": 14000, "imagen": "../img/lavanderia1.jpg" },
+    { "id": 22, "nombre": "Dispenser 2 puertas", "precio": 42000, "imagen":"../img/lavanderia2.jpg" },
+    { "id": 23, "nombre":"Mueble portalavarropa", "precio": 140000, "imagen": "../img/lavanderia4.jpg" },
+
+
+    { "id": 26, "nombre": "Mesa de living blanca", "precio": 12000, "imagen":"../img/living1.jpg" },
+    { "id": 27, "nombre": "Sillon 3 cuerpos", "precio": 412000, "imagen":"../img/living2.jpg" },
+
+    { "id": 35, "nombre": "Escritorio", "precio": 10500, "imagen": "../img/oficina1.jpg" },
+    { "id": 38, "nombre": "Escritorio", "precio": 18900, "imagen": "../img/oficina3.jpg" },
+    { "id": 37, "nombre": "Escritorio algarrobo", "precio": 90500, "imagen": "../img/oficina4.jpg" }
+    
+  
+]
+}
